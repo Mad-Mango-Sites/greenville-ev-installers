@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Charging Cost Calculator for Greenville, SC | Home vs Gas</title>
+<meta name="description" content="Estimate the monthly cost to charge an EV at home on Duke Energy Carolinas&#x27; SC residential rate and compare it with gas for the same miles. Sources shown.">
+<link rel="canonical" href="https://mad-mango-sites.github.io/greenville-ev-installers/ev-charging-cost-calculator.html">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<noscript><style>.site-nav{display:block!important;position:static!important;box-shadow:none!important}.nav-toggle{display:none!important}.filter-fields,.filters-toggle{display:none!important}</style></noscript>
+</head>
+<body class="page calculator" data-root="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap hdr">
+<a class="brand" href="index.html"><img src="images/logo.svg" alt="Greenville EV Installers" width="218" height="34"></a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button>
+<nav class="site-nav" id="site-nav" aria-label="Main">
+<ul class="nav-list">
+<li class="has-sub"><button class="sub-toggle" type="button" aria-expanded="false">Find an installer<svg class="ic chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+<ul class="sub"><li><a href="installers.html">All installers</a></li><li><a href="greenville.html">Greenville</a></li><li><a href="greer.html">Greer</a></li><li><a href="simpsonville.html">Simpsonville</a></li><li><a href="mauldin.html">Mauldin</a></li><li><a href="taylors.html">Taylors</a></li><li><a href="travelers-rest.html">Travelers Rest</a></li><li><a href="fountain-inn.html">Fountain Inn</a></li><li><a href="easley.html">Easley</a></li></ul></li>
+<li class="has-sub"><button class="sub-toggle" type="button" aria-expanded="false">Services<svg class="ic chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+<ul class="sub"><li><a href="tesla-wall-connector-installers.html">Tesla Wall Connector installers</a></li><li><a href="panel-upgrade-for-ev-charger.html">Panel upgrades for EV charging</a></li><li><a href="commercial-ev-charger-installers.html">Commercial and workplace EV charging</a></li><li><a href="multifamily-hoa-ev-charging.html">Multifamily and HOA EV charging</a></li><li><a href="nema-14-50-outlet-installers.html">NEMA 14-50 outlet installers</a></li><li><a href="ev-charger-repair.html">EV charger repair</a></li></ul></li>
+<li><a href="guides.html">Guides</a></li>
+<li><a href="ev-charging-cost-calculator.html">Charging cost calculator</a></li>
+<li><a href="how-we-rank.html">How we rank</a></li>
+</ul></nav></div></header>
+<main id="main">
+<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Charging cost calculator</li></ol></nav></div>
+<div class="wrap content calc-page">
+<h1>Home EV Charging Cost Calculator</h1>
+<p class="lead">Estimate what it costs each month to charge an EV at home on Duke Energy Carolinas' South Carolina residential rate, and what the same miles would cost in gas. The math runs in your browser. Nothing you type is saved or sent.</p>
+<div class="calc">
+<form class="calc-form card" id="calc-form" novalidate>
+<div class="field">
+<label for="c-miles">Miles driven per day</label>
+<input type="number" id="c-miles" inputmode="decimal" min="0" max="1000" step="any" aria-describedby="c-miles-msg">
+<p class="msg" id="c-miles-msg" aria-live="polite"></p>
+</div>
+<fieldset class="field">
+<legend>Your car's efficiency</legend>
+<div class="unit-toggle" role="radiogroup" aria-label="Efficiency unit">
+<label><input type="radio" name="c-unit" value="mikwh" checked><span>mi/kWh</span></label>
+<label><input type="radio" name="c-unit" value="kwh100"><span>kWh/100 mi</span></label>
+</div>
+<input type="number" id="c-eff" inputmode="decimal" step="any" min="0.5" max="10" aria-label="Car efficiency" aria-describedby="c-eff-help c-eff-msg">
+<p class="help" id="c-eff-help">Find your car's rating on its EPA label or at <a href="https://www.fueleconomy.gov/feg/findacar.shtml" target="_blank" rel="noopener">fueleconomy.gov</a>. The label lists kWh/100 mi.</p>
+<p class="msg" id="c-eff-msg" aria-live="polite"></p>
+</fieldset>
+<fieldset class="field">
+<legend>Duke Energy Carolinas rate block</legend>
+<label class="radio-row"><input type="radio" name="c-block" value="13.8125" checked><span>My home uses 1,000 kWh a month or less before the EV: <strong>13.8125¢/kWh</strong></span></label>
+<label class="radio-row"><input type="radio" name="c-block" value="14.4661"><span>My home already uses more than 1,000 kWh a month: <strong>14.4661¢/kWh</strong></span></label>
+</fieldset>
+<div class="field-row">
+<div class="field">
+<label for="c-gas">Gas price ($/gal)</label>
+<input type="number" id="c-gas" inputmode="decimal" min="0.5" max="15" step="any" value="3.833" aria-describedby="c-gas-msg">
+<p class="msg" id="c-gas-msg" aria-live="polite"></p>
+</div>
+<div class="field">
+<label for="c-mpg">Gas car MPG to compare</label>
+<input type="number" id="c-mpg" inputmode="decimal" min="5" max="150" step="any" value="25.6" aria-describedby="c-mpg-msg">
+<p class="msg" id="c-mpg-msg" aria-live="polite"></p>
+</div>
+</div>
+</form>
+<section class="calc-out card" aria-live="polite" aria-labelledby="calc-out-h">
+<h2 id="calc-out-h" class="h3">Your monthly estimate</h2>
+<p class="calc-status" id="calc-status">Enter your miles per day and your car's efficiency to see your estimate.</p>
+<dl class="calc-results">
+<div><dt>Miles a month</dt><dd id="r-miles">—</dd></div>
+<div><dt>Electricity for charging</dt><dd id="r-kwh">—</dd></div>
+<div class="big"><dt>Cost to charge at home</dt><dd id="r-ev">—</dd></div>
+<div class="big"><dt>Gas for the same miles</dt><dd id="r-gas">—</dd></div>
+<div class="diff"><dt>Difference</dt><dd id="r-diff">—</dd></div>
+</dl>
+<p class="small muted">A month is 30.4 days (365 ÷ 12).</p>
+</section>
+</div>
+
+<h2 id="how-it-works">How the estimate works</h2>
+<ul>
+<li><strong>Miles a month</strong> = miles per day × 30.4 days.</li>
+<li><strong>Electricity</strong> = miles a month ÷ miles per kWh. If you enter kWh/100 mi, it's miles a month × kWh/100 mi ÷ 100.</li>
+<li><strong>Cost to charge at home</strong> = electricity (kWh) × Duke Energy Carolinas' Schedule RS energy charge for the block you picked.</li>
+<li><strong>Gas for the same miles</strong> = miles a month ÷ MPG × gas price.</li>
+<li><strong>Difference</strong> = gas cost − home charging cost.</li>
+</ul>
+
+<h2 id="sources">Where the numbers come from</h2>
+<div class="table-wrap"><table>
+<tbody>
+<tr><th scope="row">Electricity rate</th><td>13.8125¢/kWh for the first 1,000 kWh used per month and 14.4661¢/kWh for all over 1,000 kWh. Duke Energy Carolinas, LLC, <a href="https://www.duke-energy.com/-/media/pdfs/for-your-home/rates/electric-sc/scschedulers.pdf" target="_blank" rel="noopener">Schedule RS, Residential Service (South Carolina), SC Fifty-Ninth Revised Leaf No. 11</a>, effective for service rendered on and after March 1, 2026 (PSCSC Docket No. 2025-172-E, Order No. 2025-769). Checked Oct 21, 2026.</td></tr>
+<tr><th scope="row">Rate blocks</th><td>Schedule RS has two energy-charge blocks and no seasonal or time-of-day prices. Charging adds kWh on top of what your home already uses, so the calculator uses the first-block rate unless you say your home already uses more than 1,000 kWh a month. If your charging pushes your home over 1,000 kWh, part of it is billed at the higher rate, so the real cost falls between the two.</td></tr>
+<tr><th scope="row">Gas price (default)</th><td>$3.833/gal, AAA's current South Carolina average for regular, as of Oct 21, 2026 (<a href="https://gasprices.aaa.com/?state=SC" target="_blank" rel="noopener">AAA gas prices, South Carolina</a>). Change it to what you pay.</td></tr>
+<tr><th scope="row">MPG (default)</th><td>25.6 mpg, the average estimated real-world fuel economy of model year 2024 new vehicles without BEVs and PHEVs, from the <a href="https://www.epa.gov/system/files/documents/2026-02/420r26001.pdf" target="_blank" rel="noopener">2025 EPA Automotive Trends Report (EPA-420-R-26-001, February 2026)</a>. Change it to your own car's MPG.</td></tr>
+<tr><th scope="row">EV efficiency</th><td>No default. Efficiency varies a lot by model, so enter your own car's rating.</td></tr>
+</tbody></table></div>
+
+<p class="footnote small muted"><strong>What this estimate leaves out:</strong> Duke's $11.96 monthly basic customer charge (you pay it with or without an EV); the riders the tariff adds per kWh (Energy Efficiency, EDIT-1, PC, PTC, CARE and Storm Securitization); the fuel, variable environmental, avoided capacity and DERP adjustments and the DERP fixed monthly charge; sales tax and municipal or other government fees; time-of-use and other Duke rate schedules; energy lost while charging; public charging; and the cost of the charger and its installation. Utilities other than Duke Energy Carolinas (Greer CPW, Easley Combined Utilities, Blue Ridge Electric, Laurens Electric) have their own rates. <a href="guides/which-electric-utility-serves-me.html">Which utility serves me?</a></p>
+</div>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="f-cols">
+<div class="f-brand"><a href="index.html"><img src="images/logo-dark.svg" alt="Greenville EV Installers" width="218" height="34" loading="lazy"></a></div>
+<div><h2 class="f-h">Towns</h2><ul><li><a href="greenville.html">Greenville</a></li><li><a href="greer.html">Greer</a></li><li><a href="simpsonville.html">Simpsonville</a></li><li><a href="mauldin.html">Mauldin</a></li><li><a href="taylors.html">Taylors</a></li><li><a href="travelers-rest.html">Travelers Rest</a></li><li><a href="fountain-inn.html">Fountain Inn</a></li><li><a href="easley.html">Easley</a></li></ul></div>
+<div><h2 class="f-h">Services</h2><ul><li><a href="tesla-wall-connector-installers.html">Tesla Wall Connector installers</a></li><li><a href="panel-upgrade-for-ev-charger.html">Panel upgrades for EV charging</a></li><li><a href="commercial-ev-charger-installers.html">Commercial and workplace EV charging</a></li><li><a href="multifamily-hoa-ev-charging.html">Multifamily and HOA EV charging</a></li><li><a href="nema-14-50-outlet-installers.html">NEMA 14-50 outlet installers</a></li><li><a href="ev-charger-repair.html">EV charger repair</a></li></ul></div>
+<div><h2 class="f-h">Guides</h2><ul><li><a href="guides.html">All guides</a></li><li><a href="guides/ev-charger-installation-cost-greenville-sc.html">EV charger installation cost</a></li><li><a href="guides/duke-energy-charger-prep-credit-sc.html">Duke Charger Prep Credit</a></li><li><a href="guides/ev-charger-permits-greenville-city-vs-county.html">Permits: city vs county</a></li><li><a href="guides/which-electric-utility-serves-me.html">Which utility serves you</a></li><li><a href="guides/federal-ev-charger-tax-credit-30c-ended.html">Federal 30C credit ended</a></li><li><a href="ev-charging-cost-calculator.html">Charging cost calculator</a></li></ul></div>
+<div><h2 class="f-h">About this site</h2><ul><li><a href="installers.html">All installers</a></li><li><a href="how-we-rank.html">How we rank</a></li><li><a href="claim-or-correct-a-listing.html">Claim or correct a listing</a></li><li><a href="about.html">About</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li></ul></div>
+</div>
+<p class="f-legal">Greenville EV Installers is an independent directory. We are not affiliated with Duke Energy, Tesla or any business listed here.</p>
+</div></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
