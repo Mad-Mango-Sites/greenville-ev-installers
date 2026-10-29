@@ -34,14 +34,14 @@ This is the listing-only version, so these pages from the doc are **not** built.
 - #42 Compare installers
 - #43 Get up to 3 quotes (form)
 - #44 Quote thank-you (part of the form flow)
-- Phase 2 town pages (Five Forks, Spartanburg) were never in the phase 1 build. Their "coming soon" chips show as plain text with no link.
+- Phase 2 town pages (Five Forks, Spartanburg) were never in the phase 1 build. Their chips have been removed.
 
 I also removed every "Get 3 quotes", "Request quotes" and "Compare" button/CTA, all compare checkboxes, the "How quotes work" block and the quote-request sections on Privacy and Terms. The full list of changes is in the hand-off report. Words like "Compare 23" in some doc page titles and meta descriptions stay because they're SEO copy, not buttons.
 
 ## Listing data: `data/installers.json`
 
 One object per installer, in rank order. Fields:
-`rank, slug, name, base, score, rating_text, rating_value_scored, review_count_scored, rating_source_scored, ev_evidence, coverage_text, towns_named, towns_listed, tags, jobs, brands, home_or_commercial, commercial_only, publishes_prices, held_as_draft, phone, website, profile, town_scores`.
+`rank, slug, name, base, score, rating_text, rating_value_scored, review_count_scored, rating_source_scored, ev_evidence, coverage_text, towns_named, towns_listed, tags, jobs, brands, home_or_commercial, commercial_only, publishes_prices, phone, website, profile, town_scores`.
 
 The cards are static HTML, so they show up without JavaScript and get indexed. On `installers.html`, `js/main.js` loads the JSON and uses it to filter and reorder those cards: town, job type, charger brand, home or commercial, "publishes prices", and sort by our score, review count or name. Filters are kept in the URL (`installers.html?town=easley&job=commercial`), and the home page search form uses the same parameters.
 - Over http(s) it fetches `data/installers.json` with a relative path.
@@ -70,8 +70,7 @@ I wrote the calculator page's meta title and description myself (they aren't in 
 ## Content notes / open items for Aaron
 
 - Duke Energy Carolinas' home Charger Prep Credit cap is shown as **$1,236** everywhere. The $1,755 figure (Duke Energy Progress) has been removed.
-- Rating lines keep the doc's "(as of Oct 2026, recheck before launch)".
-- Griffin Electric is listed with the doc's "(Held as draft until website confirmed.)" note.
+- Ratings are Google ratings checked Oct 26, 2026. Scores follow the How we rank rubric, including SC LLR license lookups done Oct 26, 2026.
 - Claim or correct a listing: the doc's form section isn't built because there's no submission channel yet. The text still says to tell us in the form, so it needs a contact channel (email or form service).
 - About / Privacy / Terms: sections that needed a legal entity, site email, retention period or "last updated" date were left out (HTML comments mark where). Add them once those are decided. Privacy copy mentions analytics cookies, but no analytics is installed. Terms mention greenvilleevinstallers.com.
 - Not included yet because they need the final domain: sitemap.xml, canonical URLs, structured data.

@@ -1,62 +1,58 @@
 [
   {
     "rank": 1,
-    "slug": "greenville-electric-llc",
-    "name": "Greenville Electric LLC",
-    "base": "Simpsonville",
-    "score": 70,
-    "rating_text": "5.0 from 103 to 134 Google reviews (count differs by source) (as of Oct 2026, recheck before launch)",
+    "slug": "sagecare-electric",
+    "name": "SageCare Electric",
+    "base": "Greenville",
+    "score": 82,
+    "rating_text": "5.0 from 46 Google reviews",
     "rating_value_scored": 5.0,
-    "review_count_scored": 103,
+    "review_count_scored": 46,
     "rating_source_scored": "Google",
     "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
-    "coverage_text": "Names 5 of our 8 towns: Greenville, Simpsonville, Mauldin, Travelers Rest, Fountain Inn.",
+    "coverage_text": "Names 5 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Easley.",
     "towns_named": [
       "greenville",
+      "greer",
       "simpsonville",
       "mauldin",
-      "travelers-rest",
-      "fountain-inn"
+      "easley"
     ],
     "towns_listed": [
       "greenville",
+      "greer",
       "simpsonville",
       "mauldin",
-      "travelers-rest",
-      "fountain-inn"
+      "easley"
     ],
     "tags": [
       "Tesla Wall Connector",
-      "Panel work",
-      "240V outlet / NEMA 14-50",
       "Publishes prices"
     ],
     "jobs": [
       "home",
-      "tesla",
-      "panel",
-      "nema"
+      "tesla"
     ],
     "brands": [
       "Tesla",
       "ChargePoint",
-      "JuiceBox"
+      "Grizzl-E",
+      "Ford Charge Station Pro"
     ],
     "home_or_commercial": "Homes",
     "commercial_only": false,
     "publishes_prices": true,
-    "held_as_draft": false,
     "phone": [
-      "(864) 757-2012"
+      "(864) 238-8678"
     ],
-    "website": "https://www.greenville-electric.com/ev-charger-installation",
-    "profile": "installers/greenville-electric-llc.html",
+    "website": "https://trustsagecare.com/services/ev-charger-installation-greenville-sc/",
+    "profile": "installers/sagecare-electric.html",
     "town_scores": {
-      "greenville": 74,
-      "simpsonville": 74,
-      "mauldin": 74,
-      "travelers-rest": 74,
-      "fountain-inn": 74
+      "greenville": 86,
+      "greer": 86,
+      "simpsonville": 86,
+      "mauldin": 86,
+      "easley": 86
     }
   },
   {
@@ -64,10 +60,10 @@
     "slug": "redland-electric",
     "name": "Redland Electric",
     "base": "Duncan",
-    "score": 64,
-    "rating_text": "5.0 from 209 Google reviews (as of Oct 2026, recheck before launch)",
+    "score": 80,
+    "rating_text": "5.0 from 260 Google reviews",
     "rating_value_scored": 5.0,
-    "review_count_scored": 209,
+    "review_count_scored": 260,
     "rating_source_scored": "Google",
     "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
     "coverage_text": "Names 6 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Taylors, Easley.",
@@ -100,469 +96,30 @@
     "home_or_commercial": "Homes and businesses",
     "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
       "(864) 909-4441"
     ],
     "website": "https://www.redlandelectric.com/ev-charger-installation",
     "profile": "installers/redland-electric.html",
     "town_scores": {
-      "greenville": 66,
-      "greer": 66,
-      "simpsonville": 66,
-      "mauldin": 66,
-      "taylors": 66,
-      "easley": 66
+      "greenville": 82,
+      "greer": 82,
+      "simpsonville": 82,
+      "mauldin": 82,
+      "taylors": 82,
+      "easley": 82
     }
   },
   {
     "rank": 3,
-    "slug": "priority-electrical-service",
-    "name": "Priority Electrical Service",
-    "base": "Greenville",
-    "score": 59,
-    "rating_text": "4.9 from 652 Google reviews (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 4.9,
-    "review_count_scored": 652,
-    "rating_source_scored": "Google",
-    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
-    "coverage_text": "Names 1 of our 8 towns: Greenville.",
-    "towns_named": [
-      "greenville"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors",
-      "travelers-rest",
-      "fountain-inn",
-      "easley"
-    ],
-    "tags": [
-      "Tesla Wall Connector",
-      "Panel work",
-      "Repair"
-    ],
-    "jobs": [
-      "home",
-      "tesla",
-      "panel",
-      "repair"
-    ],
-    "brands": [
-      "Tesla",
-      "JuiceBox",
-      "Wallbox",
-      "ClipperCreek"
-    ],
-    "home_or_commercial": "Homes only",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 834-9955"
-    ],
-    "website": "https://upstateelectric.com/",
-    "profile": "installers/priority-electrical-service.html",
-    "town_scores": {
-      "greenville": 68,
-      "greer": 63,
-      "simpsonville": 63,
-      "mauldin": 63,
-      "taylors": 63,
-      "travelers-rest": 63,
-      "fountain-inn": 63,
-      "easley": 63
-    }
-  },
-  {
-    "rank": 4,
-    "slug": "sagecare-electric",
-    "name": "SageCare Electric",
-    "base": "Greenville",
-    "score": 55,
-    "rating_text": "5.0 from 33 to 41 Google reviews (count differs by source) (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 5.0,
-    "review_count_scored": 33,
-    "rating_source_scored": "Google",
-    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
-    "coverage_text": "Names 5 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Easley.",
-    "towns_named": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "easley"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "easley"
-    ],
-    "tags": [
-      "Tesla Wall Connector"
-    ],
-    "jobs": [
-      "home",
-      "tesla"
-    ],
-    "brands": [
-      "Tesla",
-      "ChargePoint",
-      "Grizzl-E",
-      "Ford Charge Station Pro"
-    ],
-    "home_or_commercial": "Homes",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 238-8678"
-    ],
-    "website": "https://trustsagecare.com/services/ev-charger-installation-greenville-sc/",
-    "profile": "installers/sagecare-electric.html",
-    "town_scores": {
-      "greenville": 59,
-      "greer": 59,
-      "simpsonville": 59,
-      "mauldin": 59,
-      "easley": 59
-    }
-  },
-  {
-    "rank": 5,
-    "slug": "touchstone-electric",
-    "name": "Touchstone Electric",
-    "base": "Taylors",
-    "score": 55,
-    "rating_text": "5.0 from 113 Google reviews (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 5.0,
-    "review_count_scored": 113,
-    "rating_source_scored": "Google",
-    "ev_evidence": "Dedicated EV page or EV projects shown",
-    "coverage_text": "Names 3 of our 8 towns: Greenville, Simpsonville, Taylors.",
-    "towns_named": [
-      "greenville",
-      "simpsonville",
-      "taylors"
-    ],
-    "towns_listed": [
-      "greenville",
-      "simpsonville",
-      "taylors"
-    ],
-    "tags": [
-      "Panel work"
-    ],
-    "jobs": [
-      "home",
-      "panel"
-    ],
-    "brands": [],
-    "home_or_commercial": "Homes",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 932-3470",
-      "(864) 302-3118"
-    ],
-    "website": "https://www.touchstoneelectric.com/locations/simpsonville-sc",
-    "profile": "installers/touchstone-electric.html",
-    "town_scores": {
-      "greenville": 62,
-      "simpsonville": 62,
-      "taylors": 62
-    }
-  },
-  {
-    "rank": 6,
-    "slug": "three-reasons-electric",
-    "name": "Three Reasons Electric",
-    "base": "Simpsonville / Fountain Inn area",
-    "score": 52,
-    "rating_text": "About 5.0 from about 40 reviews, per a third-party directory. Not yet confirmed on Google (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 5.0,
-    "review_count_scored": 40,
-    "rating_source_scored": "Directory",
-    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
-    "coverage_text": "Names 2 of our 8 towns: Greenville, Simpsonville.",
-    "towns_named": [
-      "greenville",
-      "simpsonville"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors",
-      "travelers-rest",
-      "fountain-inn",
-      "easley"
-    ],
-    "tags": [
-      "Panel work",
-      "Commercial"
-    ],
-    "jobs": [
-      "home",
-      "panel",
-      "commercial"
-    ],
-    "brands": [],
-    "home_or_commercial": "Homes and businesses",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 881-9097"
-    ],
-    "website": "https://www.threereasonselectric.com/ev-charger-installation-simpsonville-sc/",
-    "profile": "installers/three-reasons-electric.html",
-    "town_scores": {
-      "greenville": 60,
-      "greer": 55,
-      "simpsonville": 60,
-      "mauldin": 55,
-      "taylors": 55,
-      "travelers-rest": 55,
-      "fountain-inn": 55,
-      "easley": 55
-    }
-  },
-  {
-    "rank": 7,
-    "slug": "one-more-hand-electrical",
-    "name": "One More Hand Electrical Services",
-    "base": "Fountain Inn",
-    "score": 51,
-    "rating_text": "5.0 from 27 Google reviews (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 5.0,
-    "review_count_scored": 27,
-    "rating_source_scored": "Google",
-    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
-    "coverage_text": "Names 2 of our 8 towns: Greenville, Fountain Inn.",
-    "towns_named": [
-      "greenville",
-      "fountain-inn"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors",
-      "travelers-rest",
-      "fountain-inn"
-    ],
-    "tags": [
-      "Panel work"
-    ],
-    "jobs": [
-      "home",
-      "panel"
-    ],
-    "brands": [
-      "Ford Charge Station Pro"
-    ],
-    "home_or_commercial": "Homes",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 214-5141"
-    ],
-    "website": "https://onemorehandupstate.com/services/car-charger-installations/",
-    "profile": "installers/one-more-hand-electrical.html",
-    "town_scores": {
-      "greenville": 58,
-      "greer": 53,
-      "simpsonville": 53,
-      "mauldin": 53,
-      "taylors": 53,
-      "travelers-rest": 53,
-      "fountain-inn": 58
-    }
-  },
-  {
-    "rank": 8,
-    "slug": "morris-jenkins",
-    "name": "Morris-Jenkins",
-    "base": "Greer",
-    "score": 50,
-    "rating_text": "Thumbtack: 4.9 from 135 reviews. Google shows 5.0, but the review count varies by listing (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 4.9,
-    "review_count_scored": 135,
-    "rating_source_scored": "Thumbtack",
-    "ev_evidence": "Dedicated EV page or EV projects shown",
-    "coverage_text": "Names 2 of our 8 towns: Greenville, Greer.",
-    "towns_named": [
-      "greenville",
-      "greer"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors",
-      "travelers-rest",
-      "fountain-inn",
-      "easley"
-    ],
-    "tags": [
-      "Panel work"
-    ],
-    "jobs": [
-      "home",
-      "panel"
-    ],
-    "brands": [],
-    "home_or_commercial": "Homes",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 640-8343"
-    ],
-    "website": "https://morrisjenkins.com/greenville/electrical/ev-charger-installation",
-    "profile": "installers/morris-jenkins.html",
-    "town_scores": {
-      "greenville": 58,
-      "greer": 58,
-      "simpsonville": 53,
-      "mauldin": 53,
-      "taylors": 53,
-      "travelers-rest": 53,
-      "fountain-inn": 53,
-      "easley": 53
-    }
-  },
-  {
-    "rank": 9,
-    "slug": "mr-electric-greenville",
-    "name": "Mr. Electric of Greenville-SC",
-    "base": "Simpsonville / Taylors",
-    "score": 50,
-    "rating_text": "Google rating not captured. Thumbtack: 4.8 from 103 reviews. HomeAdvisor: 4.8 from 58 (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 4.8,
-    "review_count_scored": 103,
-    "rating_source_scored": "Thumbtack",
-    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
-    "coverage_text": "Names 3 of our 8 towns: Greenville, Simpsonville, Taylors.",
-    "towns_named": [
-      "greenville",
-      "simpsonville",
-      "taylors"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors",
-      "travelers-rest",
-      "fountain-inn"
-    ],
-    "tags": [
-      "Tesla Wall Connector",
-      "Panel work",
-      "Commercial"
-    ],
-    "jobs": [
-      "home",
-      "tesla",
-      "panel",
-      "commercial"
-    ],
-    "brands": [
-      "Tesla"
-    ],
-    "home_or_commercial": "Homes and businesses",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 324-0649"
-    ],
-    "website": "https://mrelectric.com/greenville-sc/evse-installation-service",
-    "profile": "installers/mr-electric-greenville.html",
-    "town_scores": {
-      "greenville": 56,
-      "greer": 51,
-      "simpsonville": 56,
-      "mauldin": 51,
-      "taylors": 56,
-      "travelers-rest": 51,
-      "fountain-inn": 51
-    }
-  },
-  {
-    "rank": 10,
-    "slug": "viper-services",
-    "name": "Viper Services",
-    "base": "Taylors",
-    "score": 48,
-    "rating_text": "4.9 from 944 Google reviews (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 4.9,
-    "review_count_scored": 944,
-    "rating_source_scored": "Google",
-    "ev_evidence": "Dedicated EV page or EV projects shown",
-    "coverage_text": "Names 2 of our 8 towns: Greenville, Taylors.",
-    "towns_named": [
-      "greenville",
-      "taylors"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors",
-      "travelers-rest",
-      "fountain-inn",
-      "easley"
-    ],
-    "tags": [],
-    "jobs": [
-      "home"
-    ],
-    "brands": [],
-    "home_or_commercial": "Homes",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 304-1734"
-    ],
-    "website": "https://viperservices.com/electrical/ev-charging-installation/",
-    "profile": "installers/viper-services.html",
-    "town_scores": {
-      "greenville": 55,
-      "greer": 50,
-      "simpsonville": 50,
-      "mauldin": 50,
-      "taylors": 55,
-      "travelers-rest": 50,
-      "fountain-inn": 50,
-      "easley": 50
-    }
-  },
-  {
-    "rank": 11,
     "slug": "enhanced-electric",
     "name": "Enhanced Electric",
     "base": "Greenville",
-    "score": 48,
-    "rating_text": "Its own website shows 5.0 from 59 Google reviews. Not yet confirmed on Google (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": null,
-    "review_count_scored": null,
-    "rating_source_scored": "none scored (Own site)",
+    "score": 76,
+    "rating_text": "5.0 from 83 Google reviews",
+    "rating_value_scored": 5.0,
+    "review_count_scored": 83,
+    "rating_source_scored": "Google",
     "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
     "coverage_text": "Names 6 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Travelers Rest, Easley.",
     "towns_named": [
@@ -602,30 +159,236 @@
     "home_or_commercial": "Homes",
     "commercial_only": false,
     "publishes_prices": true,
-    "held_as_draft": false,
     "phone": [
       "(864) 804-9292"
     ],
     "website": "https://enhelectric.com/services/ev-charger/",
     "profile": "installers/enhanced-electric.html",
     "town_scores": {
-      "greenville": 50,
-      "greer": 50,
-      "simpsonville": 50,
-      "mauldin": 50,
-      "travelers-rest": 50,
-      "easley": 50
+      "greenville": 78,
+      "greer": 78,
+      "simpsonville": 78,
+      "mauldin": 78,
+      "travelers-rest": 78,
+      "easley": 78
     }
   },
   {
-    "rank": 12,
+    "rank": 4,
+    "slug": "greenville-electric-llc",
+    "name": "Greenville Electric LLC",
+    "base": "Simpsonville",
+    "score": 72,
+    "rating_text": "5.0 from 162 Google reviews",
+    "rating_value_scored": 5.0,
+    "review_count_scored": 162,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
+    "coverage_text": "Names 5 of our 8 towns: Greenville, Simpsonville, Mauldin, Travelers Rest, Fountain Inn.",
+    "towns_named": [
+      "greenville",
+      "simpsonville",
+      "mauldin",
+      "travelers-rest",
+      "fountain-inn"
+    ],
+    "towns_listed": [
+      "greenville",
+      "simpsonville",
+      "mauldin",
+      "travelers-rest",
+      "fountain-inn"
+    ],
+    "tags": [
+      "Tesla Wall Connector",
+      "Panel work",
+      "240V outlet / NEMA 14-50",
+      "Publishes prices"
+    ],
+    "jobs": [
+      "home",
+      "tesla",
+      "panel",
+      "nema"
+    ],
+    "brands": [
+      "Tesla",
+      "ChargePoint",
+      "JuiceBox"
+    ],
+    "home_or_commercial": "Homes",
+    "commercial_only": false,
+    "publishes_prices": true,
+    "phone": [
+      "(864) 757-2012"
+    ],
+    "website": "https://www.greenville-electric.com/ev-charger-installation",
+    "profile": "installers/greenville-electric-llc.html",
+    "town_scores": {
+      "greenville": 76,
+      "simpsonville": 76,
+      "mauldin": 76,
+      "travelers-rest": 76,
+      "fountain-inn": 76
+    }
+  },
+  {
+    "rank": 5,
+    "slug": "morris-jenkins",
+    "name": "Morris-Jenkins",
+    "base": "Greer",
+    "score": 69,
+    "rating_text": "5.0 from 1,458 Google reviews",
+    "rating_value_scored": 5.0,
+    "review_count_scored": 1458,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page or EV projects shown",
+    "coverage_text": "Names 2 of our 8 towns: Greenville, Greer.",
+    "towns_named": [
+      "greenville",
+      "greer"
+    ],
+    "towns_listed": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors",
+      "travelers-rest",
+      "fountain-inn",
+      "easley"
+    ],
+    "tags": [
+      "Panel work"
+    ],
+    "jobs": [
+      "home",
+      "panel"
+    ],
+    "brands": [],
+    "home_or_commercial": "Homes",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 640-8343"
+    ],
+    "website": "https://morrisjenkins.com/greenville/electrical/ev-charger-installation",
+    "profile": "installers/morris-jenkins.html",
+    "town_scores": {
+      "greenville": 76,
+      "greer": 76,
+      "simpsonville": 71,
+      "mauldin": 71,
+      "taylors": 71,
+      "travelers-rest": 71,
+      "fountain-inn": 71,
+      "easley": 71
+    }
+  },
+  {
+    "rank": 6,
+    "slug": "touchstone-electric",
+    "name": "Touchstone Electric",
+    "base": "Taylors",
+    "score": 62,
+    "rating_text": "5.0 from 179 Google reviews",
+    "rating_value_scored": 5.0,
+    "review_count_scored": 179,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page or EV projects shown",
+    "coverage_text": "Names 3 of our 8 towns: Greenville, Simpsonville, Taylors.",
+    "towns_named": [
+      "greenville",
+      "simpsonville",
+      "taylors"
+    ],
+    "towns_listed": [
+      "greenville",
+      "simpsonville",
+      "taylors"
+    ],
+    "tags": [
+      "Panel work"
+    ],
+    "jobs": [
+      "home",
+      "panel"
+    ],
+    "brands": [],
+    "home_or_commercial": "Homes",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 932-3470",
+      "(864) 302-3118"
+    ],
+    "website": "https://www.touchstoneelectric.com/locations/simpsonville-sc",
+    "profile": "installers/touchstone-electric.html",
+    "town_scores": {
+      "greenville": 68,
+      "simpsonville": 68,
+      "taylors": 68
+    }
+  },
+  {
+    "rank": 7,
+    "slug": "viper-services",
+    "name": "Viper Services",
+    "base": "Taylors",
+    "score": 58,
+    "rating_text": "4.9 from 1,036 Google reviews",
+    "rating_value_scored": 4.9,
+    "review_count_scored": 1036,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page or EV projects shown",
+    "coverage_text": "Names 2 of our 8 towns: Greenville, Taylors.",
+    "towns_named": [
+      "greenville",
+      "taylors"
+    ],
+    "towns_listed": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors",
+      "travelers-rest",
+      "fountain-inn",
+      "easley"
+    ],
+    "tags": [],
+    "jobs": [
+      "home"
+    ],
+    "brands": [],
+    "home_or_commercial": "Homes",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 304-1734"
+    ],
+    "website": "https://viperservices.com/electrical/ev-charging-installation/",
+    "profile": "installers/viper-services.html",
+    "town_scores": {
+      "greenville": 65,
+      "greer": 60,
+      "simpsonville": 60,
+      "mauldin": 60,
+      "taylors": 65,
+      "travelers-rest": 60,
+      "fountain-inn": 60,
+      "easley": 60
+    }
+  },
+  {
+    "rank": 8,
     "slug": "mister-sparky-greenville",
     "name": "Mister Sparky Greenville",
     "base": "Greenville",
-    "score": 47,
-    "rating_text": "4.8 from 346 Google reviews (as of Oct 2026, recheck before launch)",
+    "score": 57,
+    "rating_text": "4.8 from 378 Google reviews",
     "rating_value_scored": 4.8,
-    "review_count_scored": 346,
+    "review_count_scored": 378,
     "rating_source_scored": "Google",
     "ev_evidence": "EV work listed among general services",
     "coverage_text": "Names 8 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Taylors, Travelers Rest, Fountain Inn, Easley.",
@@ -662,7 +425,6 @@
     "home_or_commercial": "Homes and businesses",
     "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
       "(864) 207-7340",
       "(864) 300-0979"
@@ -670,145 +432,66 @@
     "website": "https://www.mistersparky.com/greenville/",
     "profile": "installers/mister-sparky-greenville.html",
     "town_scores": {
-      "greenville": 47,
-      "greer": 47,
-      "simpsonville": 47,
-      "mauldin": 47,
-      "taylors": 47,
-      "travelers-rest": 47,
-      "fountain-inn": 47,
-      "easley": 47
+      "greenville": 57,
+      "greer": 57,
+      "simpsonville": 57,
+      "mauldin": 57,
+      "taylors": 57,
+      "travelers-rest": 57,
+      "fountain-inn": 57,
+      "easley": 57
     }
   },
   {
-    "rank": 13,
-    "slug": "griffin-electric",
-    "name": "Griffin Electric",
-    "base": "Greer",
-    "score": 47,
-    "rating_text": "Google rating not captured. HomeAdvisor: 4.9 from 323 reviews (as of Oct 2026, recheck before launch)",
+    "rank": 9,
+    "slug": "detail-solar",
+    "name": "Detail Solar",
+    "base": "Greenville",
+    "score": 57,
+    "rating_text": "4.9 from 61 Google reviews",
     "rating_value_scored": 4.9,
-    "review_count_scored": 323,
-    "rating_source_scored": "HomeAdvisor",
+    "review_count_scored": 61,
+    "rating_source_scored": "Google",
     "ev_evidence": "Dedicated EV page or EV projects shown",
-    "coverage_text": "Names 2 of our 8 towns: Greenville, Greer.",
+    "coverage_text": "Names 1 of our 8 towns: Greenville.",
     "towns_named": [
-      "greenville",
-      "greer"
+      "greenville"
     ],
     "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors",
-      "travelers-rest",
-      "fountain-inn",
-      "easley"
+      "greenville"
     ],
     "tags": [
-      "Panel work",
       "Commercial"
     ],
     "jobs": [
-      "home",
-      "panel",
-      "commercial"
+      "commercial",
+      "multifamily"
     ],
     "brands": [],
-    "home_or_commercial": "Homes and businesses",
-    "commercial_only": false,
+    "home_or_commercial": "Commercial only",
+    "commercial_only": true,
     "publishes_prices": false,
-    "held_as_draft": true,
     "phone": [
-      "(864) 350-0186"
+      "(864) 283-0070"
     ],
-    "website": "https://griffinelectricsc.com/",
-    "profile": "installers/griffin-electric.html",
-    "town_scores": {
-      "greenville": 54,
-      "greer": 54,
-      "simpsonville": 49,
-      "mauldin": 49,
-      "taylors": 49,
-      "travelers-rest": 49,
-      "fountain-inn": 49,
-      "easley": 49
-    }
+    "website": "https://detailsolar.com/commercial/",
+    "profile": "installers/detail-solar.html",
+    "town_scores": {}
   },
   {
-    "rank": 14,
-    "slug": "rudin-electric",
-    "name": "Rudin Electric",
-    "base": "Greer",
-    "score": 47,
-    "rating_text": "4.9 from 270 Google reviews (as of Oct 2026, recheck before launch)",
+    "rank": 10,
+    "slug": "one-more-hand-electrical",
+    "name": "One More Hand Electrical Services",
+    "base": "Fountain Inn",
+    "score": 55,
+    "rating_text": "4.9 from 42 Google reviews",
     "rating_value_scored": 4.9,
-    "review_count_scored": 270,
+    "review_count_scored": 42,
     "rating_source_scored": "Google",
-    "ev_evidence": "Dedicated EV page or EV projects shown",
-    "coverage_text": "Names 2 of our 8 towns: Greenville, Greer.",
+    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
+    "coverage_text": "Names 2 of our 8 towns: Greenville, Fountain Inn.",
     "towns_named": [
       "greenville",
-      "greer"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors",
-      "travelers-rest",
-      "fountain-inn",
-      "easley"
-    ],
-    "tags": [
-      "Panel work",
-      "Commercial"
-    ],
-    "jobs": [
-      "home",
-      "panel",
-      "commercial"
-    ],
-    "brands": [],
-    "home_or_commercial": "Homes and businesses",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 906-9900"
-    ],
-    "website": "https://www.rudinelectric.com/services/ev-charger-installation",
-    "profile": "installers/rudin-electric.html",
-    "town_scores": {
-      "greenville": 54,
-      "greer": 54,
-      "simpsonville": 49,
-      "mauldin": 49,
-      "taylors": 49,
-      "travelers-rest": 49,
-      "fountain-inn": 49,
-      "easley": 49
-    }
-  },
-  {
-    "rank": 15,
-    "slug": "fann-electric-services",
-    "name": "Fann Electric Services",
-    "base": "Simpsonville",
-    "score": 46,
-    "rating_text": "4.9 from 104 Google reviews (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 4.9,
-    "review_count_scored": 104,
-    "rating_source_scored": "Google",
-    "ev_evidence": "EV work listed among general services",
-    "coverage_text": "Names 5 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Fountain Inn.",
-    "towns_named": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
       "fountain-inn"
     ],
     "towns_listed": [
@@ -816,6 +499,8 @@
       "greer",
       "simpsonville",
       "mauldin",
+      "taylors",
+      "travelers-rest",
       "fountain-inn"
     ],
     "tags": [
@@ -825,33 +510,36 @@
       "home",
       "panel"
     ],
-    "brands": [],
-    "home_or_commercial": "Homes only",
+    "brands": [
+      "Ford Charge Station Pro"
+    ],
+    "home_or_commercial": "Homes",
     "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
-      "(864) 363-7028"
+      "(864) 214-5141"
     ],
-    "website": "https://www.fannelectric.com/",
-    "profile": "installers/fann-electric-services.html",
+    "website": "https://onemorehandupstate.com/services/car-charger-installations/",
+    "profile": "installers/one-more-hand-electrical.html",
     "town_scores": {
-      "greenville": 50,
-      "greer": 50,
-      "simpsonville": 50,
-      "mauldin": 50,
-      "fountain-inn": 50
+      "greenville": 62,
+      "greer": 57,
+      "simpsonville": 57,
+      "mauldin": 57,
+      "taylors": 57,
+      "travelers-rest": 57,
+      "fountain-inn": 62
     }
   },
   {
-    "rank": 16,
+    "rank": 11,
     "slug": "jaymarc-electric",
     "name": "Jaymarc Electric",
     "base": "Taylors",
-    "score": 44,
-    "rating_text": "4.7 from 29 Google reviews (as of Oct 2026, recheck before launch)",
+    "score": 55,
+    "rating_text": "4.7 from 46 Google reviews",
     "rating_value_scored": 4.7,
-    "review_count_scored": 29,
+    "review_count_scored": 46,
     "rating_source_scored": "Google",
     "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
     "coverage_text": "Names 2 of our 8 towns: Greenville, Taylors.",
@@ -878,26 +566,80 @@
     "home_or_commercial": "Homes and businesses",
     "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
       "(864) 848-4245"
     ],
     "website": "https://jaymarcelectric.com/electrical_services/electrical-car-charging-station",
     "profile": "installers/jaymarc-electric.html",
     "town_scores": {
-      "greenville": 52,
-      "taylors": 52
+      "greenville": 62,
+      "taylors": 62
     }
   },
   {
-    "rank": 17,
+    "rank": 12,
+    "slug": "three-reasons-electric",
+    "name": "Three Reasons Electric",
+    "base": "Simpsonville / Fountain Inn area",
+    "score": 54,
+    "rating_text": "5.0 from 59 Google reviews",
+    "rating_value_scored": 5.0,
+    "review_count_scored": 59,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
+    "coverage_text": "Names 2 of our 8 towns: Greenville, Simpsonville.",
+    "towns_named": [
+      "greenville",
+      "simpsonville"
+    ],
+    "towns_listed": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors",
+      "travelers-rest",
+      "fountain-inn",
+      "easley"
+    ],
+    "tags": [
+      "Panel work",
+      "Commercial"
+    ],
+    "jobs": [
+      "home",
+      "panel",
+      "commercial"
+    ],
+    "brands": [],
+    "home_or_commercial": "Homes and businesses",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 881-9097"
+    ],
+    "website": "https://www.threereasonselectric.com/ev-charger-installation-simpsonville-sc/",
+    "profile": "installers/three-reasons-electric.html",
+    "town_scores": {
+      "greenville": 62,
+      "greer": 57,
+      "simpsonville": 62,
+      "mauldin": 57,
+      "taylors": 57,
+      "travelers-rest": 57,
+      "fountain-inn": 57,
+      "easley": 57
+    }
+  },
+  {
+    "rank": 13,
     "slug": "quality-electrical-contractors",
     "name": "Quality Electrical Contractors",
     "base": "Greenville",
-    "score": 44,
-    "rating_text": "4.9 from 114 Google reviews (as of Oct 2026, recheck before launch)",
+    "score": 54,
+    "rating_text": "4.9 from 120 Google reviews",
     "rating_value_scored": 4.9,
-    "review_count_scored": 114,
+    "review_count_scored": 120,
     "rating_source_scored": "Google",
     "ev_evidence": "Dedicated EV page or EV projects shown",
     "coverage_text": "Names 1 of our 8 towns: Greenville.",
@@ -924,31 +666,30 @@
     "home_or_commercial": "Homes",
     "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
       "(864) 477-5507"
     ],
     "website": "https://qualityelectricalcontractors.org/residential-electrician/electrical-car-chargers/electrical-car-charger-installation/",
     "profile": "installers/quality-electrical-contractors.html",
     "town_scores": {
-      "greenville": 52,
-      "greer": 47,
-      "simpsonville": 47,
-      "mauldin": 47,
-      "taylors": 47,
-      "travelers-rest": 47,
-      "fountain-inn": 47
+      "greenville": 62,
+      "greer": 57,
+      "simpsonville": 57,
+      "mauldin": 57,
+      "taylors": 57,
+      "travelers-rest": 57,
+      "fountain-inn": 57
     }
   },
   {
-    "rank": 18,
+    "rank": 14,
     "slug": "us-energy-solutions",
     "name": "U.S. Energy Solutions",
     "base": "Greenville",
-    "score": 43,
-    "rating_text": "4.7 from 148 Google reviews (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 4.7,
-    "review_count_scored": 148,
+    "score": 54,
+    "rating_text": "4.9 from 39 Google reviews",
+    "rating_value_scored": 4.9,
+    "review_count_scored": 39,
     "rating_source_scored": "Google",
     "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
     "coverage_text": "Names 1 of our 8 towns: Greenville.",
@@ -985,7 +726,6 @@
     "home_or_commercial": "Homes and businesses",
     "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
       "(864) 686-4100",
       "(864) 729-4707"
@@ -993,25 +733,293 @@
     "website": "https://whygreenenergy.com/ev-charger-installation/",
     "profile": "installers/us-energy-solutions.html",
     "town_scores": {
-      "greenville": 52,
-      "greer": 47,
-      "simpsonville": 47,
-      "mauldin": 47,
-      "taylors": 47,
-      "travelers-rest": 47,
-      "fountain-inn": 47,
-      "easley": 47
+      "greenville": 62,
+      "greer": 57,
+      "simpsonville": 57,
+      "mauldin": 57,
+      "taylors": 57,
+      "travelers-rest": 57,
+      "fountain-inn": 57,
+      "easley": 57
+    }
+  },
+  {
+    "rank": 15,
+    "slug": "griffin-electric",
+    "name": "Griffin Electric",
+    "base": "Greer",
+    "score": 53,
+    "rating_text": "5.0 from 31 Google reviews",
+    "rating_value_scored": 5.0,
+    "review_count_scored": 31,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page or EV projects shown",
+    "coverage_text": "Names 2 of our 8 towns: Greenville, Greer.",
+    "towns_named": [
+      "greenville",
+      "greer"
+    ],
+    "towns_listed": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors",
+      "travelers-rest",
+      "fountain-inn",
+      "easley"
+    ],
+    "tags": [
+      "Panel work",
+      "Commercial"
+    ],
+    "jobs": [
+      "home",
+      "panel",
+      "commercial"
+    ],
+    "brands": [],
+    "home_or_commercial": "Homes and businesses",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 350-0186"
+    ],
+    "website": "https://griffinelectricsc.com/",
+    "profile": "installers/griffin-electric.html",
+    "town_scores": {
+      "greenville": 61,
+      "greer": 61,
+      "simpsonville": 56,
+      "mauldin": 56,
+      "taylors": 56,
+      "travelers-rest": 56,
+      "fountain-inn": 56,
+      "easley": 56
+    }
+  },
+  {
+    "rank": 16,
+    "slug": "fann-electric-services",
+    "name": "Fann Electric Services",
+    "base": "Simpsonville",
+    "score": 52,
+    "rating_text": "4.9 from 113 Google reviews",
+    "rating_value_scored": 4.9,
+    "review_count_scored": 113,
+    "rating_source_scored": "Google",
+    "ev_evidence": "EV work listed among general services",
+    "coverage_text": "Names 5 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Fountain Inn.",
+    "towns_named": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "fountain-inn"
+    ],
+    "towns_listed": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "fountain-inn"
+    ],
+    "tags": [
+      "Panel work"
+    ],
+    "jobs": [
+      "home",
+      "panel"
+    ],
+    "brands": [],
+    "home_or_commercial": "Homes only",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 363-7028"
+    ],
+    "website": "https://www.fannelectric.com/",
+    "profile": "installers/fann-electric-services.html",
+    "town_scores": {
+      "greenville": 55,
+      "greer": 55,
+      "simpsonville": 55,
+      "mauldin": 55,
+      "fountain-inn": 55
+    }
+  },
+  {
+    "rank": 17,
+    "slug": "mr-electric-greenville",
+    "name": "Mr. Electric of Greenville-SC",
+    "base": "Simpsonville / Taylors",
+    "score": 51,
+    "rating_text": "4.8 from 222 Google reviews",
+    "rating_value_scored": 4.8,
+    "review_count_scored": 222,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
+    "coverage_text": "Names 3 of our 8 towns: Greenville, Simpsonville, Taylors.",
+    "towns_named": [
+      "greenville",
+      "simpsonville",
+      "taylors"
+    ],
+    "towns_listed": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors",
+      "travelers-rest",
+      "fountain-inn"
+    ],
+    "tags": [
+      "Tesla Wall Connector",
+      "Panel work",
+      "Commercial"
+    ],
+    "jobs": [
+      "home",
+      "tesla",
+      "panel",
+      "commercial"
+    ],
+    "brands": [
+      "Tesla"
+    ],
+    "home_or_commercial": "Homes and businesses",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 324-0649"
+    ],
+    "website": "https://mrelectric.com/greenville-sc/evse-installation-service",
+    "profile": "installers/mr-electric-greenville.html",
+    "town_scores": {
+      "greenville": 57,
+      "greer": 52,
+      "simpsonville": 57,
+      "mauldin": 52,
+      "taylors": 57,
+      "travelers-rest": 52,
+      "fountain-inn": 52
+    }
+  },
+  {
+    "rank": 18,
+    "slug": "rudin-electric",
+    "name": "Rudin Electric",
+    "base": "Greer",
+    "score": 47,
+    "rating_text": "4.9 from 298 Google reviews",
+    "rating_value_scored": 4.9,
+    "review_count_scored": 298,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page or EV projects shown",
+    "coverage_text": "Names 2 of our 8 towns: Greenville, Greer.",
+    "towns_named": [
+      "greenville",
+      "greer"
+    ],
+    "towns_listed": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors",
+      "travelers-rest",
+      "fountain-inn",
+      "easley"
+    ],
+    "tags": [
+      "Panel work",
+      "Commercial"
+    ],
+    "jobs": [
+      "home",
+      "panel",
+      "commercial"
+    ],
+    "brands": [],
+    "home_or_commercial": "Homes and businesses",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 906-9900"
+    ],
+    "website": "https://www.rudinelectric.com/services/ev-charger-installation",
+    "profile": "installers/rudin-electric.html",
+    "town_scores": {
+      "greenville": 54,
+      "greer": 54,
+      "simpsonville": 49,
+      "mauldin": 49,
+      "taylors": 49,
+      "travelers-rest": 49,
+      "fountain-inn": 49,
+      "easley": 49
     }
   },
   {
     "rank": 19,
+    "slug": "mr-brightside-plumbing-electric",
+    "name": "Mr. Brightside Plumbing & Electric",
+    "base": "Woodruff",
+    "score": 45,
+    "rating_text": "5.0 from 17 Google reviews",
+    "rating_value_scored": 5.0,
+    "review_count_scored": 17,
+    "rating_source_scored": "Google",
+    "ev_evidence": "Dedicated EV page or EV projects shown",
+    "coverage_text": "Names 5 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Taylors.",
+    "towns_named": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors"
+    ],
+    "towns_listed": [
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors"
+    ],
+    "tags": [
+      "240V outlet / NEMA 14-50"
+    ],
+    "jobs": [
+      "home",
+      "nema"
+    ],
+    "brands": [],
+    "home_or_commercial": "Homes",
+    "commercial_only": false,
+    "publishes_prices": false,
+    "phone": [
+      "(864) 400-3030"
+    ],
+    "website": "https://mrbrightsideelectric.com/services/electrical/ev-charger-installation/",
+    "profile": "installers/mr-brightside-plumbing-electric.html",
+    "town_scores": {
+      "greenville": 49,
+      "greer": 49,
+      "simpsonville": 49,
+      "mauldin": 49,
+      "taylors": 49
+    }
+  },
+  {
+    "rank": 20,
     "slug": "teleios-plumbing-electrical",
     "name": "Teleios Plumbing & Electrical",
     "base": "Taylors",
     "score": 43,
-    "rating_text": "5.0 from 26 Google reviews (as of Oct 2026, recheck before launch)",
+    "rating_text": "5.0 from 25 Google reviews",
     "rating_value_scored": 5.0,
-    "review_count_scored": 26,
+    "review_count_scored": 25,
     "rating_source_scored": "Google",
     "ev_evidence": "Dedicated EV page or EV projects shown",
     "coverage_text": "Names 2 of our 8 towns: Greer, Taylors.",
@@ -1042,7 +1050,6 @@
     "home_or_commercial": "Homes",
     "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
       "(864) 300-4737"
     ],
@@ -1060,103 +1067,76 @@
     }
   },
   {
-    "rank": 20,
-    "slug": "mr-brightside-plumbing-electric",
-    "name": "Mr. Brightside Plumbing & Electric",
-    "base": "Woodruff",
-    "score": 41,
-    "rating_text": "Thumbtack: 5.0 from 3 reviews. Its own site claims a 5.0 rating from 100+ reviews; Google count not confirmed (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 5.0,
-    "review_count_scored": 3,
-    "rating_source_scored": "Thumbtack",
-    "ev_evidence": "Dedicated EV page or EV projects shown",
-    "coverage_text": "Names 5 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Taylors.",
-    "towns_named": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors"
-    ],
-    "towns_listed": [
-      "greenville",
-      "greer",
-      "simpsonville",
-      "mauldin",
-      "taylors"
-    ],
-    "tags": [
-      "240V outlet / NEMA 14-50"
-    ],
-    "jobs": [
-      "home",
-      "nema"
-    ],
-    "brands": [],
-    "home_or_commercial": "Homes",
-    "commercial_only": false,
-    "publishes_prices": false,
-    "held_as_draft": false,
-    "phone": [
-      "(864) 400-3030"
-    ],
-    "website": "https://mrbrightsideelectric.com/services/electrical/ev-charger-installation/",
-    "profile": "installers/mr-brightside-plumbing-electric.html",
-    "town_scores": {
-      "greenville": 45,
-      "greer": 45,
-      "simpsonville": 45,
-      "mauldin": 45,
-      "taylors": 45
-    }
-  },
-  {
     "rank": 21,
-    "slug": "detail-solar",
-    "name": "Detail Solar",
+    "slug": "priority-electrical-service",
+    "name": "Priority Electrical Service",
     "base": "Greenville",
-    "score": 39,
-    "rating_text": "About 4.8 from 62 reviews, per a solar directory that cites Google. Not yet confirmed on Google (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": 4.8,
-    "review_count_scored": 62,
-    "rating_source_scored": "Third-party",
-    "ev_evidence": "Dedicated EV page or EV projects shown",
+    "score": 36,
+    "rating_text": "No Google listing found under this business's name or phone number",
+    "rating_value_scored": null,
+    "review_count_scored": null,
+    "rating_source_scored": null,
+    "ev_evidence": "Dedicated EV page with named chargers or documented EV jobs",
     "coverage_text": "Names 1 of our 8 towns: Greenville.",
     "towns_named": [
       "greenville"
     ],
     "towns_listed": [
-      "greenville"
+      "greenville",
+      "greer",
+      "simpsonville",
+      "mauldin",
+      "taylors",
+      "travelers-rest",
+      "fountain-inn",
+      "easley"
     ],
     "tags": [
-      "Commercial"
+      "Tesla Wall Connector",
+      "Panel work",
+      "Repair"
     ],
     "jobs": [
-      "commercial",
-      "multifamily"
+      "home",
+      "tesla",
+      "panel",
+      "repair"
     ],
-    "brands": [],
-    "home_or_commercial": "Commercial only",
-    "commercial_only": true,
+    "brands": [
+      "Tesla",
+      "JuiceBox",
+      "Wallbox",
+      "ClipperCreek"
+    ],
+    "home_or_commercial": "Homes only",
+    "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
-      "(864) 283-0070"
+      "(864) 834-9955"
     ],
-    "website": "https://detailsolar.com/commercial/",
-    "profile": "installers/detail-solar.html",
-    "town_scores": {}
+    "website": "https://upstateelectric.com/",
+    "profile": "installers/priority-electrical-service.html",
+    "town_scores": {
+      "greenville": 45,
+      "greer": 40,
+      "simpsonville": 40,
+      "mauldin": 40,
+      "taylors": 40,
+      "travelers-rest": 40,
+      "fountain-inn": 40,
+      "easley": 40
+    }
   },
   {
     "rank": 22,
     "slug": "amteck-greenville",
     "name": "Amteck (Greenville office)",
     "base": "Greenville",
-    "score": 26,
-    "rating_text": "Rating not captured yet (as of Oct 2026, recheck before launch)",
-    "rating_value_scored": null,
-    "review_count_scored": null,
-    "rating_source_scored": "none scored (None)",
+    "score": 35,
+    "rating_text": "4.2 from 18 Google reviews",
+    "rating_value_scored": 4.2,
+    "review_count_scored": 18,
+    "rating_source_scored": "Google",
     "ev_evidence": "EV work listed among general services",
     "coverage_text": "Names 5 of our 8 towns: Greenville, Greer, Simpsonville, Mauldin, Easley.",
     "towns_named": [
@@ -1184,7 +1164,6 @@
     "home_or_commercial": "Commercial only",
     "commercial_only": true,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
       "(864) 235-6333"
     ],
@@ -1198,10 +1177,10 @@
     "name": "Simply Electrical",
     "base": "Travelers Rest",
     "score": 16,
-    "rating_text": "Rating not captured yet (as of Oct 2026, recheck before launch)",
+    "rating_text": "Its Google listing has no reviews",
     "rating_value_scored": null,
     "review_count_scored": null,
-    "rating_source_scored": "none scored (None)",
+    "rating_source_scored": null,
     "ev_evidence": "EV work listed among general services",
     "coverage_text": "Names 1 of our 8 towns: Travelers Rest.",
     "towns_named": [
@@ -1221,7 +1200,6 @@
     "home_or_commercial": "Homes",
     "commercial_only": false,
     "publishes_prices": false,
-    "held_as_draft": false,
     "phone": [
       "(864) 816-5717"
     ],
