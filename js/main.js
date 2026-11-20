@@ -1,5 +1,5 @@
 /* Greenville EV Installers: site script (plain JS, no dependencies).
-   1) Mobile nav + dropdowns  2) Directory filters and sort (installers.html)  3) Charging cost calculator */
+   1) Mobile nav + dropdowns  2) Directory filters and sort (installers.html)  3) Charging cost calculator  4) GA4 events */
 (function () {
   'use strict';
   var root = document.body.getAttribute('data-root') || '';
@@ -212,5 +212,93 @@
     form.addEventListener('submit', function (e) { e.preventDefault(); touched.miles = touched.eff = true; calc(); });
     window.gvlCalc = calc;
     calc();
+  }
+
+  /* ---------- 4. GA4 events (gtag is loaded in each page's <head>) ---------- */
+  initTracking();
+
+  function initTracking() {
+    function send(name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params);
+    }
+    function slugFrom(href) {
+      var m = /([a-z0-9-]+)\.html(?:[?#].*)?$/i.exec(href || '');
+      return m ? m[1] : '';
+    }
+    var body = document.body;
+    var isProfile = body.classList.contains('page') && body.classList.contains('profile');
+    var h1 = document.querySelector('h1');
+    var profile = isProfile ? {
+      installer_name: h1 ? h1.textContent.trim() : '',
+      installer_slug: slugFrom(location.pathname)
+    } : null;
+
+    if (profile) {
+      send('installer_profile_view', {
+        installer_name: profile.installer_name,
+        installer_slug: profile.installer_slug,
+        page_path: location.pathname
+      });
+    }
+
+    function cardInfo(a) {
+      var card = a.closest ? a.closest('.icard') : null;
+      if (!card) return null;
+      var nameEl = card.querySelector('.ic-name');
+      return {
+        installer_name: nameEl ? nameEl.textContent.trim() : '',
+        installer_slug: card.getAttribute('data-slug') || ''
+      };
+    }
+    function where(a) {
+      if (a.closest && a.closest('table')) return 'table';
+      if (a.classList.contains('btn')) return 'button';
+      if (a.closest && a.closest('.icard')) return 'card';
+      return 'inline';
+    }
+    function withInstaller(p, info) {
+      if (info) { p.installer_name = info.installer_name; p.installer_slug = info.installer_slug; }
+      return p;
+    }
+
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a[href]') : null;
+      if (!a) return;
+      var href = a.getAttribute('href') || '';
+      var info = profile || cardInfo(a);
+
+      if (/^tel:/i.test(href)) {
+        send('call_click', withInstaller({
+          phone: href.replace(/^tel:/i, ''),
+          link_location: where(a),
+          page_path: location.pathname
+        }, info));
+        return;
+      }
+
+      var rel = (a.getAttribute('rel') || '').toLowerCase();
+      var isSiteLink = a.getAttribute('target') === '_blank' && rel.indexOf('nofollow') !== -1;
+      var isVisitBtn = /visit website/i.test(a.textContent || '');
+      if (/^https?:/i.test(href) && (isSiteLink || isVisitBtn) && (profile || cardInfo(a))) {
+        send('outbound_click', withInstaller({
+          link_url: a.href,
+          link_location: where(a),
+          page_path: location.pathname,
+          transport_type: 'beacon'
+        }, info));
+        return;
+      }
+
+      // Listing pages: installer cards that link to a profile.
+      var card = cardInfo(a);
+      if (card && /installers\/[a-z0-9-]+\.html/i.test(href)) {
+        send('installer_card_click', {
+          installer_name: card.installer_name,
+          installer_slug: slugFrom(href) || card.installer_slug,
+          link_location: where(a),
+          page_path: location.pathname
+        });
+      }
+    });
   }
 })();
