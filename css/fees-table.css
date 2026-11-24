@@ -1,0 +1,51 @@
+.gvev-blk{container-type:inline-size;display:block;max-width:1000px;margin:32px auto;padding:34px 32px 28px;background:#F4F7F6;border-radius:20px;font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:#0F2A44;font-size:16px;line-height:1.45;text-align:left;-webkit-font-smoothing:antialiased}
+.gvev-blk,.gvev-blk *,.gvev-blk *::before,.gvev-blk *::after{box-sizing:border-box}
+.gvev-blk .gvev-kicker,.gvev-blk .gvev-title,.gvev-blk .gvev-sub,.gvev-blk .gvev-sec,.gvev-blk .gvev-foot,.gvev-blk .gvev-tbl,.gvev-blk .gvev-q,.gvev-blk .gvev-h,.gvev-blk .gvev-name,.gvev-blk .gvev-who,.gvev-blk .gvev-t,.gvev-blk .gvev-d,.gvev-blk .gvev-note,.gvev-blk .gvev-steps,.gvev-blk .gvev-step{margin:0;padding:0;border:0;background:none;text-transform:none;letter-spacing:normal;box-shadow:none;max-width:none;float:none}
+.gvev-blk .gvev-kicker{font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:700;color:#0B7D61;font-size:13px;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:8px;line-height:1.3}
+.gvev-blk .gvev-title{font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:800;font-size:34px;letter-spacing:-.6px;line-height:1.12;color:#0F2A44}
+.gvev-blk .gvev-sub{font-size:14.5px;color:#3B5168;margin-top:9px;line-height:1.45}
+.gvev-blk .gvev-foot{margin-top:24px;font-size:12px;color:#5A6E82;line-height:1.5;border-top:1px solid #D5DEE6;padding-top:12px}
+.gvev-blk .gvev-foot b{color:#0F2A44;font-weight:700}
+.gvev-blk a{color:#0B7D61;text-decoration:underline}
+
+.gvev-blk .gvev-sec{margin-top:28px;font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:800;font-size:19px;line-height:1.3;color:#0F2A44;display:flex;align-items:center;gap:10px}
+.gvev-blk .gvev-sec::before{content:"";flex:0 0 8px;width:8px;height:20px;border-radius:3px;background:#14A37F}
+.gvev-blk .gvev-tbl{width:100%;table-layout:fixed;border-collapse:separate;border-spacing:0;margin-top:12px;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(15,42,68,.08);font-size:14px}
+.gvev-blk .gvev-tbl th,.gvev-blk .gvev-tbl td{border:0;margin:0;text-align:left;vertical-align:top}
+.gvev-blk .gvev-tbl th{font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:800;font-size:14px;line-height:1.3;padding:13px 18px;color:#fff;background:#0F2A44}
+.gvev-blk .gvev-tbl th.gvev-c{background:#0B7D61}
+.gvev-blk .gvev-tbl th:first-child{width:26%}
+.gvev-blk .gvev-tbl td{font-size:13.5px;padding:10px 18px;border-top:1px solid #E4EAF0;line-height:1.4;color:#0F2A44;background:#fff;font-weight:600}
+.gvev-blk .gvev-tbl tbody tr:nth-child(odd) td{background:#F8FAFB}
+.gvev-blk .gvev-tbl tbody tr:first-child td{border-top:0}
+.gvev-blk .gvev-tbl td:first-child{font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:700}
+.gvev-blk .gvev-tbl td.gvev-na{color:#8A9AAA;font-style:italic;font-weight:400}
+.gvev-blk .gvev-nw{white-space:nowrap}
+@media (max-width:680px){
+.gvev-blk{padding:24px 18px 20px;border-radius:14px}
+.gvev-blk .gvev-title{font-size:26px}
+.gvev-blk .gvev-sub{font-size:14.5px}
+
+.gvev-blk .gvev-tbl,.gvev-blk .gvev-tbl tbody,.gvev-blk .gvev-tbl tr,.gvev-blk .gvev-tbl td{display:block;width:100%}
+.gvev-blk .gvev-tbl{background:transparent;box-shadow:none;border-radius:0;overflow:visible}
+.gvev-blk .gvev-tbl thead{display:none}
+.gvev-blk .gvev-tbl tbody tr{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(15,42,68,.08);margin-top:12px}
+.gvev-blk .gvev-tbl tbody tr td,.gvev-blk .gvev-tbl tbody tr:nth-child(odd) td{background:#fff;border-top:1px solid #E4EAF0;padding:10px 16px}
+.gvev-blk .gvev-tbl tbody tr td:first-child{background:#0F2A44;color:#fff;border-top:0;font-size:15px;padding:11px 16px}
+.gvev-blk .gvev-tbl td[data-label]::before{content:attr(data-label);display:block;font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:800;font-style:normal;font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:#0F2A44;margin-bottom:2px}
+.gvev-blk .gvev-tbl td.gvev-city[data-label]::before{color:#0B7D61}
+.gvev-blk .gvev-nw{white-space:normal}
+}
+@media (max-width:640px){
+.gvev-blk .gvev-title{font-size:26px}
+.gvev-blk .gvev-sub{font-size:14.5px}
+
+.gvev-blk .gvev-tbl,.gvev-blk .gvev-tbl tbody,.gvev-blk .gvev-tbl tr,.gvev-blk .gvev-tbl td{display:block;width:100%}
+.gvev-blk .gvev-tbl{background:transparent;box-shadow:none;border-radius:0;overflow:visible}
+.gvev-blk .gvev-tbl thead{display:none}
+.gvev-blk .gvev-tbl tbody tr{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(15,42,68,.08);margin-top:12px}
+.gvev-blk .gvev-tbl tbody tr td,.gvev-blk .gvev-tbl tbody tr:nth-child(odd) td{background:#fff;border-top:1px solid #E4EAF0;padding:10px 16px}
+.gvev-blk .gvev-tbl tbody tr td:first-child{background:#0F2A44;color:#fff;border-top:0;font-size:15px;padding:11px 16px}
+.gvev-blk .gvev-tbl td[data-label]::before{content:attr(data-label);display:block;font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:800;font-style:normal;font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:#0F2A44;margin-bottom:2px}
+.gvev-blk .gvev-tbl td.gvev-city[data-label]::before{color:#0B7D61}
+.gvev-blk .gvev-nw{white-space:normal}}
